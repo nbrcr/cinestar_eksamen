@@ -1,0 +1,120 @@
+.featured-slider-section {
+  padding: 60px 0;
+  background-color: var(--darkest);
+}
+
+.featured-slider-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.featured-slider-header h2 {
+  display: inline-block;
+  border-bottom: 2px solid var(--orange);
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.featured-slide {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.featured-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.featured-slide:hover img {
+  transform: scale(1.05);
+}
+
+.featured-slide-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 30px 20px 20px;
+}
+
+.featured-slide-category {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.featured-slide-title {
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.featured-slide-description {
+  color: var(--medium-gray);
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.featured-slide-link {
+  color: var(--orange);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.featured-slide-link:hover {
+  text-decoration: underline;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--orange) !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--gray) !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--orange) !important;
+  opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+  .featured-slide {
+    height: 300px;
+  }
+
+  .featured-slide-title {
+    font-size: 1.2rem;
+  }
+}
+
+.featured-slide {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.featured-slide-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
