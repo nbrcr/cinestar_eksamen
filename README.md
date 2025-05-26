@@ -4,6 +4,8 @@ _Et eksamensprojekt lavet som afslutning på Webudvikler-uddannelsen._
 
 Cinestar er en filmrelateret webapplikation bygget med React og Vite. Projektet kombinerer moderne frontend-teknologi med en Node.js/MongoDB-backend, og demonstrerer min evne til at planlægge, strukturere og udvikle en komplet webapplikation.
 
+🔴HUSK AT HENTE SERVER "mcd_web_cinestar_server"🔴
+
 ---
 
 ## 📅 1. Tidsplan
